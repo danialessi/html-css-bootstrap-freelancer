@@ -1,3 +1,9 @@
+/* COMMON  */
+.section-title {
+    text-align: center;
+}
+/* END COMMON  */
+
 /* HEADER  */
 
 /* top-nav  */
@@ -42,15 +48,10 @@
 /* MAIN  */
 
 /* portfolio  */
-.portfolio-section-title {
-    text-align: center;
-}
-
 .black-star {
     font-size: 40px;
     color: black;
 }
-
 
 .margin-bottom-col {
     margin-bottom: 20px;
@@ -88,11 +89,9 @@
 
 /* info  */
 .info-background {
-    /* test  */
-    height: 400px;
-    /* test  */
     background-color: #25bc9c;
     margin-top: 20px;
+    height: 400px;
 }
 
 .info-section-title {
@@ -105,5 +104,28 @@
     color: white;
     padding-top: 10px;
 }
+
+.button {
+    text-align: center;
+    border: 1px solid white;
+    margin-top: 50px;
+}
 /* end info  */
+
+/* contacts  */
+.contacts {
+    margin-top: 30px;
+}
+
+.send-button {
+    border: 1px solid black;
+    background-color: #25bc9c;
+    display: inline-block;
+    padding: 5px;
+}
+/* end contacts  */
 /* END MAIN  */
+
+/* FOOTER  */
+
+/* END FOOTER  */
