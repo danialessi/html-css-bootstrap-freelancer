@@ -58,7 +58,6 @@
 
 .content-col {
     height: 300px;
-    
     border-radius: 10px;
 }
 
@@ -94,6 +93,17 @@
     /* test  */
     background-color: #25bc9c;
     margin-top: 20px;
+}
+
+.info-section-title {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+
+.info-background p {
+    color: white;
+    padding-top: 10px;
 }
 /* end info  */
 /* END MAIN  */
