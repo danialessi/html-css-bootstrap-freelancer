@@ -1,0 +1,16 @@
+.top-nav {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 0;
+}
+
+.top-nav .row ul li {
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.burger {
+    text-align: right;
+    line-height: 40px;
+}
