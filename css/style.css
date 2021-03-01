@@ -23,7 +23,6 @@
 
 .jumbotron {
     background-color: #25bc9c;
-    height: 400px;
     text-align: center;
     color: white;
 }
@@ -88,5 +87,13 @@
 }
 /* end portfolio  */
 
-
+/* info  */
+.info-background {
+    /* test  */
+    height: 400px;
+    /* test  */
+    background-color: #25bc9c;
+    margin-top: 20px;
+}
+/* end info  */
 /* END MAIN  */
