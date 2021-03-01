@@ -21,5 +21,72 @@
 
 /* jumbotron  */
 
+.jumbotron {
+    background-color: #25bc9c;
+    height: 400px;
+    text-align: center;
+    color: white;
+}
+
+.star {
+    font-size: 40px;
+}
+
+@media screen and (max-width: 991px) {
+    .jumbotron .jumbotron-content h1 {
+        font-size: 40px;
+    }
+}
 /* end jumbotron  */
 /* END HEADER  */
+
+/* MAIN  */
+
+/* portfolio  */
+.portfolio-section-title {
+    text-align: center;
+}
+
+.black-star {
+    font-size: 40px;
+    color: black;
+}
+
+
+.margin-bottom-col {
+    margin-bottom: 20px;
+}
+
+.content-col {
+    height: 300px;
+    
+    border-radius: 10px;
+}
+
+.item-1 {
+    background-color: #ba4b63;
+}
+
+.item-2 {
+    background-color: #1ea4b6;
+}
+
+.item-3 {
+    background-color: #140f0f;
+}
+
+.item-4 {
+    background-color: #1c83c1;
+}
+
+.item-5 {
+    background-color: #0e38b5;
+}
+
+.item-6 {
+    background-color: #ccb2a3;
+}
+/* end portfolio  */
+
+
+/* END MAIN  */
