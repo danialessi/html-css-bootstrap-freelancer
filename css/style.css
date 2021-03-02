@@ -33,6 +33,10 @@
     color: white;
 }
 
+.jumbotron img {
+    width: 200px;
+}
+
 .star {
     font-size: 40px;
 }
@@ -58,32 +62,44 @@
 }
 
 .content-col {
-    height: 300px;
+    height: 450px;
     border-radius: 10px;
 }
 
 .item-1 {
-    background-color: #ba4b63;
+    background-image: url(../img/cabin.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .item-2 {
-    background-color: #1ea4b6;
+    background-image: url(../img/cake.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .item-3 {
-    background-color: #140f0f;
+    background-image: url(../img/circus.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .item-4 {
-    background-color: #1c83c1;
+    background-image: url(../img/game.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .item-5 {
-    background-color: #0e38b5;
+    background-image: url(../img/safe.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .item-6 {
-    background-color: #ccb2a3;
+    background-image: url(../img/submarine.png);
+    background-size: cover;
+    background-position: center;
 }
 /* end portfolio  */
 
