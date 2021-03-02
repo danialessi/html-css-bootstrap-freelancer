@@ -1,6 +1,38 @@
 /* COMMON  */
 .section-title {
     text-align: center;
+    padding-top: 20px;
+}
+
+.white-title {
+    color: white;
+}
+
+h1,h2,h4 {
+    font-weight: bold;
+}
+
+.star {
+    font-size: 25px;
+    margin: 10px 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.black-star {
+    color: #2c3e50;
+}
+
+.line {
+    display: inline-block;
+    width: 15%;
+    border: 2px solid #2c3e50;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+.white-line {
+    border: 2px solid white;
 }
 /* END COMMON  */
 
@@ -19,9 +51,25 @@
     padding-right: 10px;
 }
 
+.top-nav .row ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.top-nav-menu {
+    text-align: right;
+}
+
 .burger {
+    font-size: 20px;
     text-align: right;
     line-height: 40px;
+}
+
+.burger i {
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 10px;
 }
 /* end top nav  */
 
@@ -29,20 +77,14 @@
 
 .jumbotron {
     background-color: #25bc9c;
-    text-align: center;
-    color: white;
 }
 
 .jumbotron img {
     width: 200px;
 }
 
-.star {
-    font-size: 40px;
-}
-
 @media screen and (max-width: 991px) {
-    .jumbotron .jumbotron-content h1 {
+    .jumbotron h1 {
         font-size: 40px;
     }
 }
@@ -52,81 +94,46 @@
 /* MAIN  */
 
 /* portfolio  */
-.black-star {
-    font-size: 40px;
-    color: black;
-}
-
-.margin-bottom-col {
-    margin-bottom: 20px;
-}
-
 .content-col {
-    height: 450px;
-    border-radius: 10px;
-}
-
-.item-1 {
-    background-image: url(../img/cabin.png);
-    background-size: cover;
-    background-position: center;
-}
-
-.item-2 {
-    background-image: url(../img/cake.png);
-    background-size: cover;
-    background-position: center;
-}
-
-.item-3 {
-    background-image: url(../img/circus.png);
-    background-size: cover;
-    background-position: center;
-}
-
-.item-4 {
-    background-image: url(../img/game.png);
-    background-size: cover;
-    background-position: center;
-}
-
-.item-5 {
-    background-image: url(../img/safe.png);
-    background-size: cover;
-    background-position: center;
-}
-
-.item-6 {
-    background-image: url(../img/submarine.png);
-    background-size: cover;
-    background-position: center;
+    margin-bottom: 20px;
 }
 /* end portfolio  */
 
-/* info  */
-.info-background {
+/* about  */
+.about-section {
     background-color: #25bc9c;
-    margin-top: 20px;
-    height: 400px;
-}
-
-.info-section-title {
-    text-align: center;
-    color: white;
     padding-top: 20px;
+    padding-bottom: 30px;
 }
 
-.info-background p {
+.small-wrapper {
+    width: 70%;
+    margin: auto;
+}
+
+.about-section p {
     color: white;
     padding-top: 10px;
 }
 
-.button {
+.button-container {
     text-align: center;
-    border: 1px solid white;
-    margin-top: 50px;
 }
-/* end info  */
+
+.button {
+    color: white;
+    border: 1px solid white;
+    margin: 10px 0;
+}
+
+.button i {
+    padding-right: 5px;
+}
+
+.button:hover {
+    background-color: white;
+}
+/* end about  */
 
 /* contacts  */
 .contacts {
