@@ -136,15 +136,33 @@ h1,h2,h4 {
 /* end about  */
 
 /* contacts  */
-.contacts {
-    margin-top: 30px;
+
+/* form  */
+.form-control {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 20px;
 }
 
+.form-control::placeholder {
+    color: black;
+}
+/* end form  */
+
 .send-button {
-    border: 1px solid black;
+    border: 1px solid white;
     background-color: #25bc9c;
     display: inline-block;
-    padding: 5px;
+    padding: 10px;
+    color: white;
+}
+
+.send-button:hover {
+    background-color: white;
+    border: 1px solid #25bc9c;
 }
 /* end contacts  */
 /* END MAIN  */
